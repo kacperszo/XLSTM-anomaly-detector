@@ -22,14 +22,6 @@ Anomaly score = MSE(x, x̂)
 
 Threshold is selected by maximising Youden's J on the validation set.
 
-## Results
-
-| Dataset  | AUROC  | AUPRC  | Notes                        |
-|----------|--------|--------|------------------------------|
-| ECG5000  | —      | —      | run `make run-ecg5000`       |
-| FordA    | —      | —      | DWT (db4) preprocessing      |
-| Wafer    | —      | —      | run `make run-wafer`         |
-
 ## Setup
 
 ```bash
