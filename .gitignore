@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data / model outputs
+results/*.json
+results/*.pt
+figures/*.png
+figures/*.pdf
+
+data/
+*.dat
+*.hea
+*.atr
+
+# OS
+.DS_Store
+
+# Env
+.env
+.python-version

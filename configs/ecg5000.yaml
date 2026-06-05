@@ -1,0 +1,15 @@
+dataset: ECG5000
+normal_label: "1"
+use_dwt: false
+
+model:
+  d_model: 64
+  latent_dim: 16
+  enc_blocks: 2
+  dec_blocks: 2
+
+train:
+  epochs: 500
+  batch_size: 32
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
